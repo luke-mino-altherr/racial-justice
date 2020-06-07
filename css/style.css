@@ -1,0 +1,14 @@
+html body {
+   background-color: black;
+}
+
+.intro {
+    width: 600px;
+    margin: 30px auto 30px auto;
+}
+
+em.intro {
+    color: #34b1eb;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
