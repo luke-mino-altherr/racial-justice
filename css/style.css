@@ -3,12 +3,19 @@ html body {
 }
 
 .intro {
-    width: 600px;
-    margin: 30px auto 30px auto;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.info {
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 em.intro {
-    color: #34b1eb;
+    color: #99d6ff;
     font-style: normal;
     letter-spacing: 0.1em;
+    padding-left: 0;
+    padding-right: 0;
 }
