@@ -3,19 +3,46 @@ html body {
 }
 
 .intro {
-    padding-left: 8em;
-    padding-right: 8em;
+    min-height: 100vh;
+    top: 50%;
 }
 
-.info {
-    padding-left: 4em;
-    padding-right: 4em;
+.intro > div {
+
+    justify-content: center;
+}
+
+.intro-inner > h1 {
+    padding-bottom: 1em;
+}
+
+p {
+    height: 10%;
+}
+
+.intro-inner {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 10%;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    animation: fadeIn;
+    animation-duration: 10s;
+
 }
 
 em.intro {
     color: #99d6ff;
     font-style: normal;
     letter-spacing: 0.1em;
-    padding-left: 0;
-    padding-right: 0;
 }
+
+.btn {
+    margin: 1em;
+    padding: 1em 1em;
+  }
